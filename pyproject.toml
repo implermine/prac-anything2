@@ -1,16 +1,14 @@
-[tool]
 [tool.poetry]
 name = "prac-anything2"
-version = "0.0.1"
-description = "prac-anything2"
-homepage = "https://github.com/BlossomWhale/prac-anything2.git"
-authors = ["ltg <ltg@ab180.co>"]
-exclude = ["tests/*"]
+version = "0.1.0"
+description = ""
+authors = ["BlossomWhale <lkorea12345@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = ">=3.6.0"
+python = "^3.8"
 
 [tool.poetry.dev-dependencies]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
